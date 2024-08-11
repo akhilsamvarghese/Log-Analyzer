@@ -4,10 +4,10 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # Set page title
-st.set_page_config(page_title="Interactive Line Graph Plotter", layout="wide")
+st.set_page_config(page_title="Log Analyzer", layout="wide")
 
 # Title
-st.title("Interactive Line Graph Plotter")
+st.title("Log Analyzer")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
